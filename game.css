@@ -1,0 +1,43 @@
+body {
+    background: lightgray;
+}
+
+/*
+    I used to ALWAYS get classes and IDs mixed up when I was first learning this!!
+    Note to self: "." == class
+                  "#" == id
+*/
+.grid {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background: blue;
+}
+
+.food {
+    background: yellow;
+    border-radius: 20px;
+}
+
+.replay {
+    background: black;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
